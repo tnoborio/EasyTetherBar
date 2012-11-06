@@ -13,6 +13,7 @@
 		DB0F70611649433A0044E356 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DB0F705F1649433A0044E356 /* Credits.rtf */; };
 		DB0F70641649433A0044E356 /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F70631649433A0044E356 /* EBAppDelegate.m */; };
 		DB0F70671649433B0044E356 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0F70651649433B0044E356 /* MainMenu.xib */; };
+		DB0F706E164947760044E356 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0F706D164947760044E356 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DB0F70621649433A0044E356 /* EBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBAppDelegate.h; sourceTree = "<group>"; };
 		DB0F70631649433A0044E356 /* EBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
 		DB0F70661649433B0044E356 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DB0F706D164947760044E356 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0F706E164947760044E356 /* Security.framework in Frameworks */,
 				DB0F70511649433A0044E356 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		DB0F70411649433A0044E356 = {
 			isa = PBXGroup;
 			children = (
+				DB0F706D164947760044E356 /* Security.framework */,
 				DB0F70561649433A0044E356 /* EasyTetherBar */,
 				DB0F704F1649433A0044E356 /* Frameworks */,
 				DB0F704D1649433A0044E356 /* Products */,
